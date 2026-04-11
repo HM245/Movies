@@ -1,0 +1,18 @@
+/* Home.css */
+.home {
+    padding: 20px;
+}
+.Search-form {
+    margin-bottom: 20px;
+}
+.search-input {
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+}
+.movies-gird{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
