@@ -3,7 +3,7 @@ const BASE_URL = 'http://www.omdbapi.com/?';
 
 
 export const getPopularMovies = async () => {
-    const response = await fetch(`${BASE_URL}apikey=${API_KEY}&s=Indian`);
+    const response = await fetch(`${BASE_URL}apikey=${API_KEY}&s=Marvel`);
     const data = await response.json();
     // console.log(data.Search);
     return (data.Search);
