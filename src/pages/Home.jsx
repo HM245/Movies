@@ -22,7 +22,7 @@ function Home() {
 
     return (
     <div className="home">
-        <form onSubmit={null} className="Search-form">
+        <form onSubmit={searchMovies} className="Search-form">
             <input type="text" placeholder="Search for movies..." className="search-input" value={null} onChange={(e) => setSearchQuery(e.target.value)} />
             <button type="submit" className="search-button">Search</button>
         </form>
