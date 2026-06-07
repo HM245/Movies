@@ -9,9 +9,9 @@ export const getPopularMovies = async () => {
     return (data.Search);
 };
 
-// export const searchMovies = async (query) => {
-//     const response = await fetch(`${BASE_URL}apikey=${API_KEY}&s=${encodeURIComponent(query)}`);
-//     const data = await response.json();
-//     // return data.results
-//     console.log(data.results);
-// };
+ export const searchMovies = async (query) => {
+     const response = await fetch(`${BASE_URL}apikey=${API_KEY}&s=${encodeURIComponent(query)}`);
+     const data = await response.json();
+      return data.results
+    // console.log(data.results);
+ };
