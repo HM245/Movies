@@ -26,3 +26,7 @@
     position:absolute;
     top: 5px;
 }
+.movie-poster img{
+    width: 240px;
+}
+}
