@@ -11,7 +11,7 @@ function App() {
       <main className='main-content'>
         <Routes>
           <Route path='/Movies/' element={<Home />} />
-          <Route path='/Movies/favorites' element={<Favorite />} />
+          <Route path='/favorites' element={<Favorite />} />
         </Routes>
       </main>
   </div>
