@@ -1,5 +1,5 @@
 const API_KEY = 'a55b5853'; // Replace with your actual API key
-const BASE_URL = 'http://www.omdbapi.com/?';
+const BASE_URL = 'https://www.omdbapi.com/?';
 
 
 export const getPopularMovies = async () => {
