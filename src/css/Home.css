@@ -4,6 +4,9 @@
 }
 .Search-form {
     margin-bottom: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 .search-input {
     padding: 10px;
